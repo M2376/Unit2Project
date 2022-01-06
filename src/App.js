@@ -47,9 +47,8 @@ class App extends React.Component {
             score={this.state.playerAScore}
             clickHandler={this.handlePlayerAClick}
           />
-
           <Player
-            id={0}
+            id={1}
             name={"B"}
             score={this.state.playerBScore}
             clickHandler={this.handlePlayerBClick}
