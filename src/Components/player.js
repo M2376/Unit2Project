@@ -8,8 +8,20 @@ function Player(props) {
       <h3>Score: {props.score}</h3>
       <div>
         <button onClick={() => props.clickHandler()}>
-          <span role="img" aria-label="up">
-            ⬆️
+          <span role="img" aria-label="scissors">
+            ✌
+          </span>
+        </button>
+
+        <button onClick={() => props.clickHandler()}>
+          <span role="img" aria-label="paper">
+            🖐
+          </span>
+        </button>
+
+        <button onClick={() => props.clickHandler()}>
+          <span role="img" aria-label="rock">
+            👊
           </span>
         </button>
       </div>
